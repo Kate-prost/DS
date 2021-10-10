@@ -1,0 +1,19 @@
+
+import inline as inline
+import matplotlib
+import pandas as pd
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+
+
+gg = pd.read_csv('my_stat.csv')
+#print(gg.sort_values(['attack_type']).groupby('legs'))
+#print(stud_per.sort_values(['gender', 'math score']).groupby('gender').head(5))
+#print(gg.groupby(['attack_type']).legs.nunique())
+#print(gg.sort_values(['attack_type', 'id']).groupby('rules').head(10))
+#plt.show()
+#print(gg.sqr(dispersion))
+
+#0.346431  6.641303  3.566411
